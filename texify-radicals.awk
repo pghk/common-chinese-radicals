@@ -1,4 +1,4 @@
-#!/opt/local/bin/gawk --lint -f 
+#!/usr/bin/env gawk --lint -f
 BEGIN {FS="\t"; OFS="&"}
 function clink(c) {
   return "\\clnk{" c "}"
